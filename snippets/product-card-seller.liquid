@@ -4,7 +4,8 @@
       <div class="absolute top-3 left-3 flex flex-col space-y-1 z-10">
         <span class="bg-yellow-400 text-black text-sm font-semibold px-2 py-1 rounded-full">Best Seller</span>
         <span class="text-center bg-red-500 text-white text-sm font-semibold px-2 py-1 rounded-full">
-          {{ 100.0 | minus: product.price | times: 100 | divided_by: product.compare_at_price | round }}%
+          {% assign discount_percent = product.compare_at_price | minus: product.price | times: 100.0 | divided_by: product.compare_at_price | round %}
+          -{{ discount_percent }}%
         </span>
       </div>
     {% endif %}
