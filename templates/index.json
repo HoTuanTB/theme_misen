@@ -9,56 +9,56 @@
  */
 {
   "sections": {
-    "image_banner_LRtr6U": {
-      "type": "image-banner",
+    "demo_tailwind_eeAxY4": {
+      "type": "demo-tailwind",
       "blocks": {
-        "heading_JA3wPw": {
-          "type": "heading",
+        "column_KLfKTC": {
+          "type": "column",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
+            "product": "8-inch-chefs-knife",
+            "product_sold": 123,
+            "review_count": 112314
           }
         },
-        "text_kRPRe3": {
-          "type": "text",
+        "column_aLBcAK": {
+          "type": "column",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "product": "carbon-nonstick™-frying-pan",
+            "product_sold": 12412,
+            "review_count": 616666
           }
         },
-        "buttons_NMMf49": {
-          "type": "buttons",
+        "column_Pac8WH": {
+          "type": "column",
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "product": "pre-seasoned-carbon-steel-frying-pan",
+            "product_sold": 2214,
+            "review_count": 55551
+          }
+        },
+        "column_JftxiT": {
+          "type": "column",
+          "settings": {
+            "product": "3-in-1-stainless-roasting-pan",
+            "product_sold": 9999,
+            "review_count": 9935235
           }
         }
       },
       "block_order": [
-        "heading_JA3wPw",
-        "text_kRPRe3",
-        "buttons_NMMf49"
+        "column_KLfKTC",
+        "column_aLBcAK",
+        "column_Pac8WH",
+        "column_JftxiT"
       ],
-      "name": "t:sections.image-banner.presets.name",
+      "name": "Demo TailWind",
       "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
-        "color_scheme": "",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
+        "title": "Multicolumn",
+        "heading_size": "h1"
       }
     }
   },
   "order": [
-    "image_banner_LRtr6U"
+    "demo_tailwind_eeAxY4"
   ]
 }
