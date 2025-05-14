@@ -1,0 +1,45 @@
+{
+  "article": [],
+  "blog": [],
+  "collection": [],
+  "company": [],
+  "company_location": [],
+  "location": [],
+  "market": [],
+  "order": [],
+  "page": [],
+  "product": [
+    {
+      "key": "blade-material",
+      "namespace": "shopify",
+      "name": "Blade material",
+      "description": "Specifies the material used in a blade's construction, such as steel or aluminum",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "color-pattern",
+      "namespace": "shopify",
+      "name": "Color",
+      "description": "Defines the primary color or pattern, such as blue or striped",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "cookware-bakeware-material",
+      "namespace": "shopify",
+      "name": "Cookware/Bakeware material",
+      "description": "Identifies the main material used in cookware or bakeware, like stainless steel or ceramic",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    }
+  ],
+  "variant": [],
+  "shop": []
+}
