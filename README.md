@@ -1,6 +1,6 @@
 # Demo tích hợp Tailwind vào theme
 
-**Link Demo**: https://www.youtube.com/watch?v=2y_ECAwB21o
+**Link Demo**: https://www.youtube.com/watch?v=2y_ECAwB21o  
 **Section**: Sản phẩm bán chạy nhất  
 **Store**: https://misen-vn.myshopify.com/  
 **Password**: hi
