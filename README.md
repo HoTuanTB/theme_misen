@@ -11,3 +11,4 @@
   - Thêm field tuỳ chỉnh để nhập số lượng đã bán cho từng sản phẩm (type: `number`).
 - ✅ **Hiển thị số lượng review**: 
   - Thêm field tuỳ chỉnh để nhập tổng số review (type: `number`).
+![Screenshot from 2025-05-14 13-08-48](https://github.com/user-attachments/assets/830a196a-c690-4955-b2b9-a43da422b7ab)
